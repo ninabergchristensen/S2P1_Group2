@@ -1,15 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 300;
 	max-width: 960px;
-	margin: 100px auto;
+	margin: 20px auto 50px;
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 }
 
-.hero {
+header a {
+	position: relative;
+	left: 0;
+	background: #188828;
+	text-decoration: none;
+	color: #000;
+}
+
+nav {
+	position: relative;
+	right: 0;
+	width: 70%;
+}
+
+nav ul {
+	background: #f60;
+	padding: 0;
+}
+
+nav ul li {
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+	background: #456;
+	padding: 10px 15px;
+	margin-left: 20px;
+}
+
+nav * a {
+	
+} 
+
+#hero {
 	background: #eeeeee;
 	height: 300px;
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	justify-content: center;
+	padding: 30px;
+}
+
+img {
+	max-width: 100%;
 }
