@@ -15,17 +15,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header a {
-	position: relative;
-	left: 0;
 	background: #188828;
 	text-decoration: none;
 	color: #000;
+	padding: 10px 15px;
+
 }
 
 nav {
-	position: relative;
-	right: 0;
-	width: 70%;
+	width: 60%;
 }
 
 nav ul {
@@ -38,16 +36,16 @@ nav ul li {
 	padding: 0;
 	display: inline-block;
 	background: #456;
-	padding: 10px 15px;
 	margin-left: 20px;
+	position: relative;
 }
 
 nav * a {
-	
+	padding: 10px 15px;
 } 
 
 #hero {
-	background: #eeeeee;
+	background: url("assets/artifact-virtual-reality-interactive-games.jpg");
 	height: 300px;
 	width: 100vw;
 	position: relative;
@@ -57,8 +55,4 @@ nav * a {
 	margin-right: -50vw;
 	justify-content: center;
 	padding: 30px;
-}
-
-img {
-	max-width: 100%;
 }
