@@ -42,7 +42,7 @@ nav ul li {
 
 nav * a {
 	padding: 10px 15px;
-} 
+}
 
 #hero {
 	background: url("assets/artifact-virtual-reality-interactive-games.jpg");
@@ -55,4 +55,26 @@ nav * a {
 	margin-right: -50vw;
 	justify-content: center;
 	padding: 30px;
+}
+
+#vr-pic {
+	float: left;
+	height: 200px;
+	width: 450px;
+	max-width: 45%;
+}
+
+#ar-pic {
+	float: right;
+	height: 200px;
+	width: 450px;
+	max-width: 45%;
+}
+
+section {
+	clear: both;
+}
+
+div {
+	max-width: 45%;
 }
