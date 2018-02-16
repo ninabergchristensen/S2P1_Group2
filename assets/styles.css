@@ -62,7 +62,7 @@ nav * a {
 } 
 
 #hero {
-	background: /*#2B2D42 */url(assets/artifact-virtual-reality-interactive-games.jpg) top left;
+	background: #2B2D42 url("assets/artifact-virtual-reality-interactive-games.jpg") no-repeat top left;
 	height: 100vh;
 	width: 100vw;
 	position: relative;
