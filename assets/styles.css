@@ -7,7 +7,8 @@ body {
 	font-weight: 300;
 	margin-bottom: 50px;
 	overflow-x: hidden;
-	background: #8D99AE;
+	background: /*#8D99AE*/url("artifact-background-01_blue-grey.png");
+	background-size: cover;
 }
 
 body, header {
@@ -29,17 +30,40 @@ h1, h2, h3, h4, h5, h6 {
 	right: 50%;
 	margin-left: -50vw;
 	margin-right: -50vw;
-	justify-content: center;
+	text-align: center;
 	padding: 30px;
 	clear: both;
 }
 
 header {
 	min-height: 100px;
-	background: #333333;
+	border: 1px solid #fff;
+	text-align: left;
 }
 
-header a {
+/* navigation */
+
+nav {
+	widtsh: 80%;
+	float: right;
+}
+
+nav ul {
+	background: #f60;
+	padding: 0;
+	position: relative;
+	right: 0;
+}
+
+nav ul li {
+	list-style: none;
+	padding: 0;
+	margin-left: 20px;
+	float: right;
+}
+
+nav ul li a {
+	padding: 10px 15px;
 	background: #ccc;
 	text-decoration: none;
 	color: #000;
@@ -48,36 +72,12 @@ header a {
 	clear: both;
 }
 
-header a:hover {
+nav ul li a:hover {
 	background: #fff;
-}
-
-nav {
-	width: 60%;
-	float: right;
-	clear: both;
-}
-
-nav ul {
-	background: #f60;
-	padding: 0;
-}
-
-nav ul li {
-	list-style: none;
-	padding: 0;
-	display: inline-block;
-	background: #456;
-	margin-left: 20px;
-	position: relative;
-}
-
-nav * a {
-	padding: 10px 15px;
+	color: #000;
 }
 
 #logo {
-	position: relative;
 	width: 100px;
 }
 
