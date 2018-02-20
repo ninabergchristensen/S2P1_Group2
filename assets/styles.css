@@ -163,7 +163,6 @@ header {
 /* navigation */
 
 nav {
-	widtsh: 80%;
 	float: right;
 }
 
@@ -239,5 +238,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #8D99AE;
+    background-color: #2B2D42;
+    color: #fff;
 }
