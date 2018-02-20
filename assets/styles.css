@@ -7,8 +7,8 @@ body {
 	font-weight: 300;
 	margin-bottom: 50px;
 	overflow-x: hidden;
-	background: url("artifact-background-01_blue-grey.png") repeat-x;
-	background-size: cover;
+	background: url("artifact-background-01_blue-grey.png") repeat-y center;
+	background-size: 150%;
 }
 
 body, header {
@@ -262,6 +262,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #2B2D42;
+    background-color: #8D99AE;
     color: #fff;
 }
