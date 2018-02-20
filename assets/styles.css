@@ -107,6 +107,13 @@ section {
 	flex-wrap: wrap;
 }
 
+.flex-container-rev  {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
 .flex-container div {
 	width: 45%;
 	max-width: 45%;
@@ -115,6 +122,17 @@ section {
 }
 
 .flex-container div img {
+	max-width: 100%;
+}
+
+.flex-container-rev div {
+	width: 45%;
+	max-width: 45%;
+	text-align: left;
+	margin-top: 30px;
+}
+
+.flex-container-rev div img {
 	max-width: 100%;
 }
 
@@ -209,16 +227,18 @@ nav ul li a:hover, #filmkampagne * nav ul li a:hover {
 	width: 100px;
 }
 
-#vr-pic {
+.vr-pic {
 	float: left;
-	height: 200px;
-	width: 450px;
+	height: auto;
+	width: auto;
+	margin-bottom: 50px;
 }
 
-#ar-pic {
+.ar-pic {
 	float: right;
-	height: 200px;
-	width: 450px;
+	height: auto;
+	width: auto;
+	margin-bottom: 50px;
 }
 
 /* Kontaktformular */
