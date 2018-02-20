@@ -7,7 +7,7 @@ body {
 	font-weight: 300;
 	margin-bottom: 50px;
 	overflow-x: hidden;
-	background: url("artifact-background-01_blue-grey.png");
+	background: url("artifact-background-01_blue-grey.png") repeat-x;
 	background-size: cover;
 }
 
