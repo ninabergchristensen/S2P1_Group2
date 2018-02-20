@@ -43,10 +43,6 @@ section {
 	max-width: 80%;
 }
 
-div {
-	max-width: 45%;
-}
-
 #main #hero {
 	background: url("artifact-virtual-reality-interactive-games.jpg") no-repeat top center;
 	background-size: cover;
@@ -102,13 +98,23 @@ div {
 	max-width: 90%;
 	margin: 0 auto;
 	padding: 30px;
-	border: 1px solid #fff;
 }
 
 .flex-container {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
+}
+
+.flex-container div {
+	width: 45%;
+	max-width: 45%;
+	text-align: left;
+	margin-top: 30px;
+}
+
+.flex-container div img {
+	max-width: 100%;
 }
 
 .yellow {
@@ -223,7 +229,7 @@ input[type=text], select, textarea
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
-		resize: vertical;
+	resize: vertical;
 }
 
 input[type=submit] {
