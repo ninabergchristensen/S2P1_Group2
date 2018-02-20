@@ -57,7 +57,7 @@ div {
 	background-size: cover;
 }
 
-#hero {
+#hero, .fullwidth {
 	height: 70vh;
 	width: 100vw;
 	position: relative;
@@ -86,6 +86,34 @@ div {
 	text-align: left;
 	background: url("artifact-background-01_midnight-green-hero.png") no-repeat top left;
 	background-size: cover;
+}
+
+.fullwidth {
+	height: auto;
+	margin-top: 100px;
+	padding: 100px 0;
+}
+
+.yellow {
+	background: #FFF800;
+}
+
+.gunmetal {
+	background: #2B2D42;
+	color: white;
+}
+
+.bluegrey {
+	background: #8D99AE;
+}
+
+.midnightgreen {
+	background: #095256;
+	color: white;
+}
+
+.teal {
+	background: #087F8C;
 }
 
 .calltoaction {
