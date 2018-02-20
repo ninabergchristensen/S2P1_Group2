@@ -31,8 +31,6 @@ strong {
 }
 
 em {
-	/*color: #FFF800;
-	background-color: #8D99AE;*/
 	font-weight: 500;
 }
 
@@ -96,6 +94,13 @@ div {
 	padding: 100px 0;
 }
 
+.fullwidth-box {
+	width: 960px;
+	margin: 0 auto;
+	max-width: 90%;
+	clear: both;
+}
+
 .yellow {
 	background: #FFF800;
 }
@@ -144,7 +149,6 @@ header {
 /* navigation */
 
 nav {
-	widtsh: 80%;
 	float: right;
 }
 
@@ -182,6 +186,17 @@ nav ul li a:hover, #filmkampagne * nav ul li a:hover {
 
 #logo {
 	width: 100px;
+}
+
+.column {
+	width: 45%;
+	max-width: 45%;
+	margin: 0 60px;
+	text-align: left;
+}
+
+.right {
+	float: right;
 }
 
 #vr-pic {
