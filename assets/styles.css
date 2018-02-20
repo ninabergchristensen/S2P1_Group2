@@ -229,15 +229,16 @@ nav ul li a:hover, #filmkampagne * nav ul li a:hover {
 
 .vr-pic {
 	float: left;
-	height: 50%;
+	height: auto;
 	width: auto;
-	background-image: image(assets/vrkampagne.jpg);
+	margin-bottom: 50px;
 }
 
 .ar-pic {
 	float: right;
-	height: 50%;
+	height: auto;
 	width: auto;
+	margin-bottom: 50px;
 }
 
 /* Kontaktformular */
