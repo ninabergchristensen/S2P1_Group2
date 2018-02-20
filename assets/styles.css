@@ -78,20 +78,14 @@ nav * a {
 	float: left;
 	height: 200px;
 	width: 450px;
-	max-width: 45%;
 }
 
 #ar-pic {
 	float: right;
 	height: 200px;
 	width: 450px;
-	max-width: 45%;
 }
 
 section {
 	clear: both;
-}
-
-div {
-	max-width: 45%;
 }
