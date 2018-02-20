@@ -31,6 +31,8 @@ strong {
 }
 
 em {
+	/*color: #FFF800;
+	background-color: #8D99AE;*/
 	font-weight: 500;
 }
 
@@ -94,13 +96,6 @@ div {
 	padding: 100px 0;
 }
 
-.fullwidth-box {
-	width: 960px;
-	margin: 0 auto;
-	max-width: 90%;
-	clear: both;
-}
-
 .yellow {
 	background: #FFF800;
 }
@@ -149,6 +144,7 @@ header {
 /* navigation */
 
 nav {
+	widtsh: 80%;
 	float: right;
 }
 
@@ -188,17 +184,6 @@ nav ul li a:hover, #filmkampagne * nav ul li a:hover {
 	width: 100px;
 }
 
-.column {
-	width: 45%;
-	max-width: 45%;
-	margin: 0 60px;
-	text-align: left;
-}
-
-.right {
-	float: right;
-}
-
 #vr-pic {
 	float: left;
 	height: 200px;
@@ -213,19 +198,40 @@ nav ul li a:hover, #filmkampagne * nav ul li a:hover {
 	max-width: 45%;
 }
 
+<<<<<<< HEAD
 /*
 .column {
   flex: 50%;
   padding: 0 4px;
+=======
+/* Kontaktformular */
+input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+		resize: vertical;
+>>>>>>> 556b08b8541c71530110050b1ec5a7d67d93be0a
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+input[type=submit] {
+    background-color: #FFF800;
+    color: #000000;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
 }
+<<<<<<< HEAD
 */
 .ctext {
 	text-align: center;
+=======
+
+input[type=submit]:hover {
+    background-color: #FFF800;
+>>>>>>> 556b08b8541c71530110050b1ec5a7d67d93be0a
 }
 
 
