@@ -84,7 +84,8 @@ section {
 	text-align: left;
 	background: url("artifact-background-01_midnight-green-hero.png") no-repeat top left;
 	background-size: cover;
-	text-shadow: 0px 0px 30px #8D99AE;
+	text-shadow: 0px 0px 30px #2B2D42;
+	color: #fff;
 }
 
 .fullwidth {
