@@ -199,8 +199,7 @@ nav ul li a:hover, #filmkampagne * nav ul li a:hover {
 }
 
 /* Kontaktformular */
-input[type=text], select, textarea
-{
+input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
