@@ -211,7 +211,7 @@ input[type=text], select, textarea
 
 input[type=submit] {
     background-color: #FFF800;
-    color: white;
+    color: #000000;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
