@@ -7,7 +7,7 @@ body {
 	font-weight: 300;
 	margin-bottom: 50px;
 	overflow-x: hidden;
-	background: url("artifact-background-01_blue-grey.png");
+	background: url("artifact-background-01_blue-grey.png") repeat-x;
 	background-size: cover;
 }
 
@@ -94,6 +94,12 @@ div {
 	height: auto;
 	margin-top: 100px;
 	padding: 100px 0;
+}
+
+.fullwidth-box {
+	width: 960px;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 .yellow {
