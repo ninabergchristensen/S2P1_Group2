@@ -198,21 +198,15 @@ nav ul li a:hover, #filmkampagne * nav ul li a:hover {
 	max-width: 45%;
 }
 
-<<<<<<< HEAD
-/*
-.column {
-  flex: 50%;
-  padding: 0 4px;
-=======
 /* Kontaktformular */
-input[type=text], select, textarea {
+input[type=text], select, textarea
+{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
 		resize: vertical;
->>>>>>> 556b08b8541c71530110050b1ec5a7d67d93be0a
 }
 
 input[type=submit] {
@@ -222,15 +216,9 @@ input[type=submit] {
     border: none;
     cursor: pointer;
 }
-<<<<<<< HEAD
 */
 .ctext {
 	text-align: center;
-=======
-
-input[type=submit]:hover {
-    background-color: #FFF800;
->>>>>>> 556b08b8541c71530110050b1ec5a7d67d93be0a
 }
 
 
