@@ -96,6 +96,12 @@ div {
 	padding: 100px 0;
 }
 
+.fullwidth-box {
+	width: 960px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 .yellow {
 	background: #FFF800;
 }
