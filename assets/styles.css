@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 }
 
-h1 {
+h1, .campaignsection h2 {
 	font-size: 52px;
 	padding-top: 55px;
 }
@@ -48,7 +48,7 @@ section {
 	background-size: cover;
 }
 
-#filmkampagne #hero {
+#filmkampagne #hero, .campaignsection {
 	background: url("artifact-virtual-reality-interactive-games-film-tv.jpg") no-repeat top center;
 	background-size: cover;
 }
@@ -85,6 +85,11 @@ section {
 	text-align: left;
 	background: url("artifact-background-01_midnight-green-hero.png") no-repeat top left;
 	background-size: cover;
+}
+
+.campaignsection {
+	text-shadow: 0px 0px 30px #2B2D42;
+	color: #fff;
 }
 
 .fullwidth {
